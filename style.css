@@ -1,0 +1,30 @@
+body{
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	background-color: grey;
+}
+input{
+    margin-bottom: 20px;
+}
+p{
+    padding: 20px;
+}
+#gifs {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    column-span: 1 to 2;
+}
+
+.gif {
+	display:inline-block;
+	height: 200px;
+    text-align: center;
+}
+
+.gif img {
+	width: 100%;
+}
+
