@@ -1,64 +1,61 @@
 <!doctype html>
 <html>
 <head>
-	<title>Midterm310</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+    <title>Midterm | 310</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
 </head>
-    <body>
+<body>
+    <div id="container">
+
         <h1>Giphy Madlibs</h1>
-        <p style="color:gray;">*Input words for gif</p>
-        <div id="q1">
-             <p>While I was</p>
-            <input type="text" placeholder="verb" id="verb1">
-        </div>
-        <div id="gifs"></div>
+         <hr>
+        <h2 style="font-size:20px; color:lightgray;">Judith Paredes</h2>
+        <h2 style="margin-top: 10px;">*Input words for gif</h2>
         
+    <!-----  question 1  ----->
+        <p>While I was</p>
+        <input type="text" placeholder="A Verb" id="verb">
+        <div id="verb-gifs"></div>
+
+    <!--  question 2  -->
         <p>one day through Wonderland, I felt a tug</p>
         <p>I turned around and I saw</p>
-        <div id="q2">
-            <input type="text" placeholder="Show Character" id="char_name">
-        </div>
-        <div id="gifs2"></div>
+        <input type="text" placeholder="A Character" id="character">
+        <div id="character-gifs"></div>
+
+    <!-----  question 3  ----->
         <p>I shot a</p>
-        
-          <div id="q3">
-            <input type="text" placeholder="Noun/Emotion" id="emotion">
-        </div>
-        <div id="gifs3"></div>
+        <input type="text" placeholder="Noun/Emotion" id="noun-emotion">
+        <div id="noun-emotion-gifs"></div>
+
+    <!-----  question 4  ----->
         <p>look and began to</p>
-        
-        <div id="q4">
-            <input type="text" placeholder="verb" id="verb2">
-        </div>
-        <div id="gifs4"></div>
-        
-        <div id="q5">
-            <input type="text" placeholder="Remark" id="remarks">
-        </div>
-        <div id="gifs5"></div>
+        <input type="text" placeholder="A Verb" id="verb2">
+        <div id="verb2-gifs"></div>
+
+    <!-----  question 5  ----->
         <p>it shouted. I passed by a</p>
-        
-        <div id="q6">
-            <input type="text" placeholder="Object" id="obj">
-        </div>
-        <div id="gifs6"></div>
+        <input type="text" placeholder="An Object" id="object">
+        <div id="object-gifs"></div>
+
+    <!-----  question 6  ----->
         <p>and the stumbled across a</p>
-        
-        <div id="q7">
-            <input type="text" placeholder="Animal" id="anim">
-        </div>
-        <div id="gifs7"></div>
+        <input type="text" placeholder="An Animal" id="animal">
+        <div id="animal-gifs"></div>
+
+    <!-----  question 7  ----->
         <p>Finally out of breath, I stopped.</p>
-        
-        <div id="q8">
-            <input type="text" placeholder="Same character name" id="char1">
-        </div>
-        <div id="gifs8"></div>
-        <p>caught up to me and asked me if I would like to buy some chocolate</p>
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="app.js"></script>
+        <input type="text" placeholder="Same Character" id="character2">
+        <div id="character2-gifs"></div>
+
+        <p>caught up to me and asked me if I would like to buy some chocolate.</p>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <hr style="margin-bottom: 60px;">
 </body>
 </html>
